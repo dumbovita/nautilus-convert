@@ -18,3 +18,7 @@ else
 fi
 
 sudo cp ~/.nautilus-convert/nautilus_convert.py /usr/share/nautilus-python/extensions/
+
+if [ -f /usr/share/nautilus-python/extensions/nautilus_convert.py ]; then
+    rm -rf ~/.nautilus-convert
+fi
