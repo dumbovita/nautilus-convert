@@ -15,7 +15,7 @@ MP4, MKV, AVI, WebM, MOV, FLV, 3GP
 
 ## Install
 ```bash
-bash <(curl -sSL https://raw.githubusercontent.com/dumbovita/nautilus-convert/main/install.sh)
+curl -sSL https://raw.githubusercontent.com/dumbovita/nautilus-convert/main/install.sh | bash
 ```
 
 ## Manual Install
