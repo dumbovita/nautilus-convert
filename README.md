@@ -22,7 +22,7 @@ curl -sSL https://raw.githubusercontent.com/dumbovita/nautilus-convert/main/inst
 ```bash
 git clone https://github.com/dumbovita/nautilus-convert.git ~/.nautilus-convert
 # Install dependencies (imagemagick, ffmpeg, nautilus-python)
-cp ~/.nautilus-convert/nautilus_convert.py ~/.local/share/nautilus-python/extensions/
+sudo cp ~/.nautilus-convert/nautilus_convert.py /usr/share/nautilus-python/extensions/
 ```
 
 ## Requirements

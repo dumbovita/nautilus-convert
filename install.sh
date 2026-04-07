@@ -17,4 +17,4 @@ else
     git clone https://github.com/dumbovita/nautilus-convert.git ~/.nautilus-convert
 fi
 
-cp ~/.nautilus-convert/nautilus_convert.py ~/.local/share/nautilus-python/extensions/
+sudo cp ~/.nautilus-convert/nautilus_convert.py /usr/share/nautilus-python/extensions/
